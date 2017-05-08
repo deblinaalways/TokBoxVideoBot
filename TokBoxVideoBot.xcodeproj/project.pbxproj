@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12214358A323E135A228A418 /* Pods_TokBoxVideoBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6772C0EA950678B53D32F538 /* Pods_TokBoxVideoBot.framework */; };
+		9848616F1EA68CE600F50DDA /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848616E1EA68CE600F50DDA /* ContactListTableViewController.swift */; };
+		984861731EA68E8D00F50DDA /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861721EA68E8D00F50DDA /* ContactCell.swift */; };
+		984861751EA693EA00F50DDA /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861741EA693EA00F50DDA /* VideoViewController.swift */; };
+		984861791EA6972E00F50DDA /* PublisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984861781EA6972E00F50DDA /* PublisherManager.swift */; };
+		9848617B1EA69ECA00F50DDA /* VideoCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848617A1EA69ECA00F50DDA /* VideoCaptureManager.swift */; };
+		9848617D1EA69F6400F50DDA /* VideoRenderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848617C1EA69F6400F50DDA /* VideoRenderManager.swift */; };
 		98B96EDA1EA6242A00C18450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B96ED91EA6242A00C18450 /* AppDelegate.swift */; };
-		98B96EDC1EA6242A00C18450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B96EDB1EA6242A00C18450 /* ViewController.swift */; };
 		98B96EDF1EA6242A00C18450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B96EDD1EA6242A00C18450 /* Main.storyboard */; };
 		98B96EE11EA6242A00C18450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B96EE01EA6242A00C18450 /* Assets.xcassets */; };
 		98B96EE41EA6242A00C18450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B96EE21EA6242A00C18450 /* LaunchScreen.storyboard */; };
+		98B96EF11EA631AD00C18450 /* EAGLVideoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B96EED1EA631AD00C18450 /* EAGLVideoRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1931B5CFB7C90D4335807EA0 /* Pods-TokBoxVideoBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokBoxVideoBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokBoxVideoBot/Pods-TokBoxVideoBot.debug.xcconfig"; sourceTree = "<group>"; };
+		357A267E69AF1E8DF5E0D123 /* Pods-TokBoxVideoBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokBoxVideoBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokBoxVideoBot/Pods-TokBoxVideoBot.release.xcconfig"; sourceTree = "<group>"; };
+		6772C0EA950678B53D32F538 /* Pods_TokBoxVideoBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokBoxVideoBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9848616E1EA68CE600F50DDA /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		984861721EA68E8D00F50DDA /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		984861741EA693EA00F50DDA /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		984861781EA6972E00F50DDA /* PublisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublisherManager.swift; sourceTree = "<group>"; };
+		9848617A1EA69ECA00F50DDA /* VideoCaptureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCaptureManager.swift; sourceTree = "<group>"; };
+		9848617C1EA69F6400F50DDA /* VideoRenderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRenderManager.swift; sourceTree = "<group>"; };
 		98B96ED61EA6242A00C18450 /* TokBoxVideoBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokBoxVideoBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B96ED91EA6242A00C18450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98B96EDB1EA6242A00C18450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98B96EDE1EA6242A00C18450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98B96EE01EA6242A00C18450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B96EE31EA6242A00C18450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B96EE51EA6242A00C18450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B96EED1EA631AD00C18450 /* EAGLVideoRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAGLVideoRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12214358A323E135A228A418 /* Pods_TokBoxVideoBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6798CEC046B080475199A9B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1931B5CFB7C90D4335807EA0 /* Pods-TokBoxVideoBot.debug.xcconfig */,
+				357A267E69AF1E8DF5E0D123 /* Pods-TokBoxVideoBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9848617F1EA6A08900F50DDA /* OpenTokLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				98B96EED1EA631AD00C18450 /* EAGLVideoRenderer.swift */,
+				9848617A1EA69ECA00F50DDA /* VideoCaptureManager.swift */,
+				9848617C1EA69F6400F50DDA /* VideoRenderManager.swift */,
+				984861781EA6972E00F50DDA /* PublisherManager.swift */,
+			);
+			name = OpenTokLibrary;
+			sourceTree = "<group>";
+		};
 		98B96ECD1EA6242A00C18450 = {
 			isa = PBXGroup;
 			children = (
 				98B96ED81EA6242A00C18450 /* TokBoxVideoBot */,
 				98B96ED71EA6242A00C18450 /* Products */,
+				6798CEC046B080475199A9B7 /* Pods */,
+				F19225E4B1DFECFB4D9BEBE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,49 @@
 		98B96ED81EA6242A00C18450 /* TokBoxVideoBot */ = {
 			isa = PBXGroup;
 			children = (
-				98B96ED91EA6242A00C18450 /* AppDelegate.swift */,
-				98B96EDB1EA6242A00C18450 /* ViewController.swift */,
-				98B96EDD1EA6242A00C18450 /* Main.storyboard */,
+				98FC9DE91EA6A33F004DFB6A /* Start */,
+				98FC9DE81EA6A328004DFB6A /* Controller */,
+				98FC9DE71EA6A318004DFB6A /* Storyboard */,
+				9848617F1EA6A08900F50DDA /* OpenTokLibrary */,
 				98B96EE01EA6242A00C18450 /* Assets.xcassets */,
-				98B96EE21EA6242A00C18450 /* LaunchScreen.storyboard */,
 				98B96EE51EA6242A00C18450 /* Info.plist */,
 			);
 			path = TokBoxVideoBot;
+			sourceTree = "<group>";
+		};
+		98FC9DE71EA6A318004DFB6A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				98B96EDD1EA6242A00C18450 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		98FC9DE81EA6A328004DFB6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9848616E1EA68CE600F50DDA /* ContactListTableViewController.swift */,
+				984861721EA68E8D00F50DDA /* ContactCell.swift */,
+				984861741EA693EA00F50DDA /* VideoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		98FC9DE91EA6A33F004DFB6A /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				98B96ED91EA6242A00C18450 /* AppDelegate.swift */,
+				98B96EE21EA6242A00C18450 /* LaunchScreen.storyboard */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		F19225E4B1DFECFB4D9BEBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6772C0EA950678B53D32F538 /* Pods_TokBoxVideoBot.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B96EE81EA6242A00C18450 /* Build configuration list for PBXNativeTarget "TokBoxVideoBot" */;
 			buildPhases = (
+				9C38943DC0C38DFC713B7418 /* [CP] Check Pods Manifest.lock */,
 				98B96ED21EA6242A00C18450 /* Sources */,
 				98B96ED31EA6242A00C18450 /* Frameworks */,
 				98B96ED41EA6242A00C18450 /* Resources */,
+				C6F0A8A6B0EE525A2EFF1773 /* [CP] Embed Pods Frameworks */,
+				B0045C6790E8F89AB2F87976 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +209,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C38943DC0C38DFC713B7418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0045C6790E8F89AB2F87976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokBoxVideoBot/Pods-TokBoxVideoBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F0A8A6B0EE525A2EFF1773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokBoxVideoBot/Pods-TokBoxVideoBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98B96ED21EA6242A00C18450 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B96EDC1EA6242A00C18450 /* ViewController.swift in Sources */,
+				984861731EA68E8D00F50DDA /* ContactCell.swift in Sources */,
+				98B96EF11EA631AD00C18450 /* EAGLVideoRenderer.swift in Sources */,
+				984861791EA6972E00F50DDA /* PublisherManager.swift in Sources */,
+				9848617B1EA69ECA00F50DDA /* VideoCaptureManager.swift in Sources */,
+				984861751EA693EA00F50DDA /* VideoViewController.swift in Sources */,
+				9848616F1EA68CE600F50DDA /* ContactListTableViewController.swift in Sources */,
 				98B96EDA1EA6242A00C18450 /* AppDelegate.swift in Sources */,
+				9848617D1EA69F6400F50DDA /* VideoRenderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +390,12 @@
 		};
 		98B96EE91EA6242A00C18450 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1931B5CFB7C90D4335807EA0 /* Pods-TokBoxVideoBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 374A5BSW36;
 				INFOPLIST_FILE = TokBoxVideoBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hummingwave.TokBoxVideoBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +405,12 @@
 		};
 		98B96EEA1EA6242A00C18450 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357A267E69AF1E8DF5E0D123 /* Pods-TokBoxVideoBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 374A5BSW36;
 				INFOPLIST_FILE = TokBoxVideoBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hummingwave.TokBoxVideoBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +437,7 @@
 				98B96EEA1EA6242A00C18450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
